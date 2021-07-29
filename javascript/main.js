@@ -107,3 +107,8 @@ sidebar.innerHTML=playlist
 let clearBtn=document.querySelector('.js-clear').addEventListener('click',function(){
   localStorage.clear()
 })
+
+let clearBtn=document.querySelector('.js-clear').addEventListener('click',function(){
+  localStorage.clear()
+  sidebar.innerHTML=''
+})
